@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Screentime Tracker",
+  "version": "1.0",
+  "description": "Tracks useless site time and logs to Google Sheets at 8 PM",
+  "permissions": ["tabs", "storage", "alarms", "activeTab", "<all_urls>"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}
