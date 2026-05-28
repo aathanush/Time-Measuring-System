@@ -129,7 +129,7 @@ browser.alarms.onAlarm.addListener(alarm => {
   if (alarm.name === "post8pm") postToSheets();
 });
 
-// ── Startup / Install ─────────────────────────────────────────
+// ── Startup / Install 
 browser.runtime.onInstalled.addListener(async () => {
   await load();
   scheduleAlarm();
